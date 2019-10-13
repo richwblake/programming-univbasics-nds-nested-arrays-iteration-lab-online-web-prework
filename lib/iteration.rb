@@ -19,8 +19,8 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
- sum_of_evens_array = Array.new
  iter = 0
+ sum = 0
  while iter < src.length do
   if ( (src[iter][0] + src[iter][1]) % 2 == 0 )
     
