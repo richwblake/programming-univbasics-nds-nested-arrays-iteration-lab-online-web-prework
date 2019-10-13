@@ -12,7 +12,7 @@ def find_greater_pair(src)
   greatest_int_array = Array.new
   iter = 0
   while iter < src.length do
-    
+    greatest_int_array[iter] = 
     iter += 1
   end
 
