@@ -15,7 +15,7 @@ def find_greater_pair(src)
     greatest_int_array[iter] = src[iter][0] > src[iter][1] ? src[iter][0] : src[iter][1]
     iter += 1
   end
-
+  greatest_int_array
 end
 
 def total_even_pairs(src)
