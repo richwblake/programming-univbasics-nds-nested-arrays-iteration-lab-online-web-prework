@@ -22,8 +22,7 @@ def total_even_pairs(src)
  iter = 0
  sum = 0
  while iter < src.length do
-  if ( (src[iter][0] + src[iter][1]) % 2 == 0 )
-    puts "entered if statement on iter value: #{iter}"
+  if ( (src[iter][0] % 2 == 0 && src[iter][1] % 2 == 0)
     sum += (src[iter][0] + src[iter][1])
   end
   iter += 1
