@@ -27,4 +27,5 @@ def total_even_pairs(src)
   end
   iter += 1
  end
+ sum
 end
