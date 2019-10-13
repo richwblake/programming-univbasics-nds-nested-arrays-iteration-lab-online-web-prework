@@ -20,5 +20,9 @@ end
 
 def total_even_pairs(src)
  sum_of_evens_array = Array.new
- 
+ iter = 0
+ while iter < src.length do
+  if (src[iter][0] )
+  iter += 1
+ end
 end
